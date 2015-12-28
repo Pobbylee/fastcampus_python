@@ -1,0 +1,1 @@
+#fastcampus python lecture note

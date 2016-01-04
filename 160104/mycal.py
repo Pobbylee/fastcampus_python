@@ -27,15 +27,18 @@ def my_div(first, second):
     return result
 
 def my_add2(*nums):
+    print nums
     result = 0
     for n in nums:
         result += n
     return result
 
 def my_thing(**thing):
+    print thing
     for k, v in thing.items():
         print v, "in my", k
 
 my_thing(left_pocket = "cellphone", right_pocket = "nothing")
-result = my_add2(1,5,8,10)
+my_add2(1,5,4,6)
+result = my_sub(second = 5, first = 7)
 print result

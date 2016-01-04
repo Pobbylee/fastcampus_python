@@ -1,9 +1,9 @@
-mem = [0, 1]
+mem = [0, 1, 1]
 
 def fib1(num):
     a0 = 0
     a1 = 1
-    a2 = None
+    a2 = 1
 
     if num == 1 or num == 2:
         return 1

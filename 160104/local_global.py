@@ -4,6 +4,7 @@ def use_local():
     print "Local variable x is", x
 
 def use_global():
+    global x
     print "Global variable x is", x
 
 x = 100

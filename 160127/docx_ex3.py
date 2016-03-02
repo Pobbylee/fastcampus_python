@@ -9,5 +9,9 @@ doc.add_heading('Header 4', 4)
 doc.add_heading('Header 5', 5)
 doc.add_heading('Header 6', 6)
 doc.add_heading('Header 7', 7)
+doc.add_heading('Header 8', 8)
+
+# for i in range(0, 8):
+#     doc.add_heading('Header' + str(i), i)
 
 doc.save('headings.docx')

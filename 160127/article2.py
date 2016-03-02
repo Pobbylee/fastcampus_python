@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import docx
 
 # crawling
-response = requests.get("http://news.naver.com/main/read.nhn?mode=LSD&mid=sec&sid1=105&oid=029&aid=0002327059")
+response = requests.get("http://news.naver.com/main/read.nhn?mode=LSD&mid=sec&sid1=105&oid=018&aid=0003462374")
 response.raise_for_status()
 
 soup = BeautifulSoup(response.text, "html.parser")

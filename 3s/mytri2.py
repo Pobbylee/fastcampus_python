@@ -18,8 +18,6 @@ class my_triangle:
         self.x2 += 1
         self.y2 += 1
 
-    def get_cg(self):
-        return (self.x0 + self.x1 + self.x2) / 3, (self.y0 + self.y1 + self.y2) / 3
 
 t0 = my_triangle("Zix", 0, 0, 2, 0, 1, 2)
 t1 = my_triangle("fastcampus", 5, 5, 7, 5, 6, 7)
